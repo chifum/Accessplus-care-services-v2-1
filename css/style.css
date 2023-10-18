@@ -1,0 +1,383 @@
+body{
+  color: #121212;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+form{
+  text-align: center;
+  margin-bottom: 20%;
+}
+input{
+  border-radius: 10px;
+  border: 2px solid #3BBCE4;
+  padding-bottom: 2%;
+}
+input:focus{
+  outline: transparent;
+  border: 3px solid #3BBCE4;
+}
+.blueH{
+  color: #3BBCE4;
+}
+.centeredP{
+  text-align: center;
+}
+.whiteP{
+  color: #fff;
+}
+.blueP{
+  color: #3BBCE4;
+}
+h2{
+  text-align: center;
+}
+
+#button{
+  width: 293px;
+  color: #fff;
+  border-radius: 10px;
+  background: #3BBCE4;
+}
+#button img{
+  padding-left: 5%;
+}
+#current{
+  text-decoration: underline 3px;
+  text-decoration-color: #B1152A;
+}
+.topContact{
+  background: #105D77;
+  display: flex;
+  justify-content: center;
+  padding-top: 2%;
+  padding-bottom: 1%;
+}
+.topContact img{
+  height: 50%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+nav img{
+  margin-right: 10%;
+}
+nav a{
+  color:#121212;
+  text-decoration: none;
+  padding-right: 1%;
+}
+nav a:hover{
+  color:#3BBCE4;
+}
+.bigImage{
+  width: 100%;
+}
+.messageContainer{
+  padding: 2%;
+  width: 100%;
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+#welcomePic{
+  padding-right: 10%;
+}
+
+#ellipse{
+  width: 100%;
+}
+.supportServices h2{
+  color: #3BBCE4;
+  text-align: center;
+  padding: 5%;
+}
+.cards{
+  display: flex;
+  justify-content: center;
+}
+.cards button{
+  font-weight: 600;
+  color: #3BBCE4;
+}
+.cards button:hover{
+  font-weight: 600;
+  color: #3BBCE4;
+}
+#card{
+  width: 40%;
+  text-align: center;
+  margin: 1%;
+  border-radius: 20px;
+  background: #E1E1E1;
+}
+#cardImg{
+  width: 100%;
+}
+
+.supportYou{
+  text-align: center;
+  margin-top: 5%;
+}
+.roundCards{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.roundCards img{
+  width: 100%;
+}
+#roundCard{
+  width: 80%;
+  padding: 15%;
+  background-color: #E1E1E1;
+  border-radius: 100%;
+}
+#roundCardContainer{
+  padding: 5%;
+}
+#roundCardContainer p{
+ width: 100%;
+ margin-left: -10%;
+}
+.strategicDirection{
+  display: flex;
+  justify-content: center;
+  border-radius: 30px;
+  background: #E0E0E0;
+  padding-top:5%;
+}
+
+.NDIS{
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+.NDIS img{
+  width: 100%;
+}
+#NDISText{
+  border-radius: 20px;
+  background: #E0E0E0;
+  margin-left: 5%;
+  padding: 5%;
+}
+.stayConnected{
+  color: #3BBCE4;
+  text-align: center;
+  margin-top: 5%;
+}
+.books img{
+  margin: 1%;
+}
+.altContact{
+  margin-top: 5%;
+  text-align: center;
+}
+
+.contactCardContainer{
+  display: flex;
+  justify-content: center;
+}
+.contactCard{
+  width: 100%;
+  border-radius: 30px;
+  background: #CBE8F6;
+  display: flex;
+  justify-content:flex-start;
+  padding-top: 3%;
+  margin: 5%;
+}
+.contactCard img{
+  width: 20%;
+}
+.contactCardText{
+  margin-left: 5%;
+}
+#forms #button{
+float: right;
+margin-right: 10%;
+}
+.bestSupport{
+  padding: 5%;
+}
+.bestSupport p{
+  margin-top: 5%;
+}
+
+/* form */
+.smallInput{
+  width: 25%;
+  height: 70px;
+  margin: 1%;
+}
+#bigInput{
+  width: 80%;
+  height: 265px;
+  padding-bottom: 20%;
+}
+
+/* contact us */
+.contactUs{
+  width: 100%;
+  background: #105D77;
+  display:flex;
+  justify-content: center;
+  color: #fff;
+}
+
+.bottomLogo{
+  width: 40%;
+  margin-left: -20%;
+  padding: 1%;
+}
+.contactUsText{
+  margin-left: 10%;
+  padding-top: 10%;
+}
+.contactUsImg{
+  padding-bottom: 10%;
+  padding-top: 10%;
+  display: flex;
+  justify-content: center;
+}
+.contactUsImg img{
+  height: 100%;
+  margin-right: 1%;
+}
+
+.unsplash{
+  display: flex;
+  justify-content: center;
+}
+.unsplash img{
+  width: 50%;
+  margin-left: -1%;
+}
+.unsplash p{
+  padding: 5%;
+}
+.footer{
+  height: 89px;
+  background: #105D77;
+}
+.footer p{
+  padding-top: 3%;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  border: none;
+  background-color: transparent;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  padding-bottom: 2px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {color: #3CBBE4;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  color:#3BBCE4;
+}
+
+@media (max-width: 1200px){
+  body{
+    overflow-x: hidden;
+  }
+  .topContact{
+    display: none;
+  }
+  nav{
+  text-align: center;
+
+  
+  }
+  .messageContainer{
+    display: block;
+  }
+ .cards{
+  display: grid;
+  align-items: center;
+ }
+ #card{
+  width: 100%;
+ }
+ .strategicDirection{
+  display: grid;
+  justify-content: center;
+ }
+ .NDIS{
+  display: grid;
+  justify-content: center;
+ }
+ #NDISText{
+  width: 100%;
+  margin-top: 5%;
+  margin-left: -1%;
+ }
+.contactCardContainer{
+  display: grid;
+}
+.smallInput{
+  width: 100%;
+  display: grid;
+}
+#bigInput{
+  width: 100%;
+  padding-bottom: 40%;
+}
+.contactUs{
+  display: grid;
+  align-items: center;
+}
+.bottomLogo{
+  width: 100%;
+  text-align: center;
+  margin: 0;
+}
+.bottomLogo p{
+  padding: 10%;
+}
+.contactUsText{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.unsplash{
+  display: grid;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.unsplash img{
+  width: 100%;
+}
+}
