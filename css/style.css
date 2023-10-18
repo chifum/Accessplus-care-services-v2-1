@@ -394,12 +394,15 @@ margin-right: 10%;
   width: 100%;
   display: grid;
   align-items: center;
-  overflow: hidden;
+
 }
 .bottomLogo{
   width: 100%;
   text-align: center;
   margin: 0;
+}
+.bottomLogo img{
+  width: 50%;
 }
 .bottomLogo p{
   padding: 10%;
