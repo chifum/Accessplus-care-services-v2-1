@@ -83,19 +83,23 @@ nav a:hover{
 }
 #welcomePic{
   padding-right: 10%;
+  
 }
 
 #ellipse{
+  
   width: 100%;
 }
 .supportServices h2{
   color: #3BBCE4;
   text-align: center;
   padding: 5%;
+  
 }
 .cards{
   display: flex;
   justify-content: center;
+  
 }
 .cards button{
   font-weight: 600;
@@ -309,14 +313,16 @@ margin-right: 10%;
 
 @media (max-width: 1200px){
   body{
+    text-align: center;
+    overflow-x: hidden;
   }
-  .topContact{
-    display: none;
+  #topContact{
+  display: none;
+  
   }
   nav{
   text-align: center;
-
-  
+ 
   }
   .messageContainer{
     display: block;
@@ -345,8 +351,13 @@ margin-right: 10%;
   margin-bottom: 5%;
  }
  .NDIS{
+  width: 100%;
   display: grid;
   justify-content: center;
+  overflow-x: hidden;
+ }
+ .stayConnected{
+  overflow-x: hidden;
  }
  #NDISText{
   width: 100%;
