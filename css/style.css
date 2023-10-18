@@ -60,7 +60,6 @@ h2{
   margin-left: 1%;
   margin-right: 1%;
 }
-
 nav img{
   margin-right: 10%;
 }
@@ -310,7 +309,6 @@ margin-right: 10%;
 
 @media (max-width: 1200px){
   body{
-    overflow-x: hidden;
   }
   .topContact{
     display: none;
@@ -333,6 +331,18 @@ margin-right: 10%;
  .strategicDirection{
   display: grid;
   justify-content: center;
+ }
+ .strategicDirection p{
+  padding-left: 10%;
+  padding-right: 10%;
+ }
+ .strategicDirection h1{
+  padding-left: 10%;
+  padding-right: 10%;
+ }
+ .strategicDirection button{
+  margin-left: 10%;
+  margin-bottom: 5%;
  }
  .NDIS{
   display: grid;
