@@ -19,6 +19,7 @@ form{
   margin-bottom: 20%;
 }
 input{
+  padding-left: 2%;
   border-radius: 10px;
   border: 2px solid #3BBCE4;
   padding-bottom: 2%;
@@ -375,6 +376,8 @@ margin-right: 10%;
   width: 50%;
 }
 .bigDetail{
+  padding-top: 5%;
+  padding-bottom: 30%;
   height: 194px;
 }
 /* Dropdown Button */
