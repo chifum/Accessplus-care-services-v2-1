@@ -195,6 +195,20 @@ nav a:hover{
   width: 20%;
   margin: 1%;
 }
+
+.instagramBtnContainer{
+  text-align: center;
+}
+.instagramBtn{
+  margin-top: 5%;
+  padding: 1%;
+  border-radius: 10px;
+  background: #AD1126;
+}
+.instagramBtn a{
+  color: #fff;
+  text-decoration: none;
+}
 .altContact{
   margin-top: 5%;
   text-align: center;
