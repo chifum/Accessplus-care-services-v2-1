@@ -18,13 +18,17 @@ form{
   text-align: center;
   margin-bottom: 20%;
 }
-input{
+textarea{
   padding-left: 2%;
   border-radius: 10px;
   border: 2px solid #3BBCE4;
   padding-bottom: 2%;
+  resize: none;
 }
-input:focus{
+textarea::-webkit-scrollbar{
+  display: none;
+}
+textarea:focus{
   outline: transparent;
   border: 3px solid #3BBCE4;
 }
@@ -249,6 +253,7 @@ margin-right: 10%;
   width: 25%;
   height: 70px;
   margin: 1%;
+  resize: none;
 }
 #bigInput{
   width: 80%;
